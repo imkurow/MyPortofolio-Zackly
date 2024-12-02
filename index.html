@@ -37,6 +37,9 @@
         </div>
       </div>
     </nav>
+    <div class="container">
+      
+    </div>
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/roundzack.png" alt="Thierry Zackly profile picture" />
@@ -76,13 +79,6 @@
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
-        <!-- <div class="section__pic-container">
-          <img
-            src="./assets/about-pic.png"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div> -->
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
@@ -180,7 +176,19 @@
                   <h3>JavaScript</h3>
                   <p>Basic</p>
                 </div>
-          
+                </article>
+                
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Figma</h3>
+                  <p>Experienced</p>
+                </div>
+                </article>
             </div>
           </div>
           <div class="details-container">
@@ -274,9 +282,16 @@
                 src="./assets/sehatiSS.png"
                 alt="Project 1"
                 class="project-img"
+                style="max-height: 250px;"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Sehati</h2>
+            <h2 class="experience-sub-title project-title">Sehati - Mental Health Management App</h2>
+            <p style="text-align: justify;">
+              Sehati is a comprehensive mental health app designed to 
+              support users in understanding and improving their mental
+              well-being. Developed with Laravel, this project incorporates 
+              modern technologies to deliver a seamless user experience.
+            </p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -284,12 +299,6 @@
               >
                 Github
               </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button> -->
             </div>
           </div>
           <div class="details-container color-container">
@@ -298,9 +307,17 @@
                 src="./assets/fitlift.png"
                 alt="Project 2"
                 class="project-img"
+                style="max-height: 400px;"
               />
             </div>
-            <h2 class="experience-sub-title project-title">GymMe</h2>
+            <h2 class="experience-sub-title project-title">GymMe - Supplement E-Commerce Web Application</h2>
+            <p style="text-align: justify;">
+              Developed a comprehensive ASP.NET web application for GymMe, 
+              an online health supplement store, utilizing Domain-Driven Design (DDD) 
+              principles. The application features a robust multi-layer architecture 
+              with distinct layers for View, Controller, Handler, Repository, Factory,
+              and Model
+            </p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -308,38 +325,42 @@
               >
                 Github
               </button>
-              <!-- <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button> -->
             </div>
           </div>
-          <!-- <div class="details-container color-container">
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#certificate'"
+      />
+    </section>
+
+    <!-- =============================== -->
+    <section id="certificate">
+      <h1 class="title">My Certification</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
+                src="./assets/dacode-certificate.png"
+                alt="certificate 1"
+                class="certificate-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Dacode Online Bootcamp</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="window.open('./assets/dacode-certificate.png')"
               >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
+                View 
               </button>
             </div>
-          </div> -->
+          </div>
+         
         </div>
       </div>
       <img
@@ -349,6 +370,7 @@
         onclick="location.href='./#contact'"
       />
     </section>
+    <!-- =============================== -->
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
