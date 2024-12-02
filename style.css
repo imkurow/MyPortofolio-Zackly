@@ -7,6 +7,8 @@
   padding: 0;
 }
 
+
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -348,6 +350,7 @@ section {
 }
 
 .article-container {
+  flex-grow: 1;
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
@@ -378,14 +381,18 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-direction: column;
+  border-color: rgb(191, 139, 139);
   background: rgb(250, 250, 250);
 }
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  max-width: 100%;
+  height: auto;
 }
 
 .project-title {
@@ -396,7 +403,39 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+  margin-top: auto;
 }
+
+
+/* CERTIFICATE */
+#certificate {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.certificate-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.certificate-title {
+  margin: 1rem;
+  color: black;
+}
+
+.certificate-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
 
 /* CONTACT */
 
@@ -449,3 +488,4 @@ footer {
 footer p {
   text-align: center;
 }
+
