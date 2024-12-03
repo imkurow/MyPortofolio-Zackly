@@ -326,6 +326,25 @@ section {
   margin: auto 0;
 }
 
+.text-container {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px){
+  .text-container{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px){
+  .text-container{
+    font-size: 12px;
+  }
+}
+
+
+
 /* EXPERIENCE SECTION */
 
 #experience {
