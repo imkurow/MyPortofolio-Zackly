@@ -115,7 +115,7 @@
   }
   
   .text-container {
-    text-align: justify;
+    text-align: left;
   }
 }
 #profile {
@@ -235,6 +235,6 @@
   }
   
   .text-container {
-    text-align: justify;
+    text-align: left;
   }
 }
