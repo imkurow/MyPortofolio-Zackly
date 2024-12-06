@@ -389,12 +389,13 @@ section {
 }
 
 .article-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-  justify-content: start;
-  align-items: start;
-  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
 }
 
 article {
@@ -404,7 +405,6 @@ article {
   width: auto;
   min-width: 10rem;
 }
- 
 
 article .icon {
   cursor: default;
